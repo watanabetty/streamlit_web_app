@@ -1,0 +1,28 @@
+githubのアカウントがあること
+gitをpcにインストールしていること
+自分のpython環境のコンソールで，，，
+
+
+git config --global user.name"xxxx"
+git config --global user.email"yyyy"
+
+xxxx：登録したユーザーネームを入れる
+yyyy：登録したメールアドレスを入れる
+
+git config --global --list
+
+登録情報を確認する
+
+
+githubで適当なレポジトリを作成する
+
+自分の環境で以下をする
+git init
+git add -A
+ ※onedriveでやったらwarningが出たのでローカルがいいかもしれない
+
+git status
+git commit -m "first commit"git remote add origin https://github.com/watanabetty/streamlit.webapp.git
+ ※ここでエラー，ローカルにファイルを移してやり直す
+
+
