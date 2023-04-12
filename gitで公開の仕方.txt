@@ -22,7 +22,8 @@ git add -A
  ※onedriveでやったらwarningが出たのでローカルがいいかもしれない
 
 git status
-git commit -m "first commit"git remote add origin https://github.com/watanabetty/streamlit.webapp.git
+git commit -m "first commit"
+git remote add origin https://【ユーザー名】：【トークン】@github.com/watanabetty/streamlit.webapp.git
  ※ここでエラー，ローカルにファイルを移してやり直す
 
 
